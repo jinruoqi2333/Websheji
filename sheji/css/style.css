@@ -1,0 +1,280 @@
+body{
+	background-color: black;
+    height: 2300px;
+    width: 1300px;
+}
+#mybody{
+	margin-top: 0px;
+    background-image: url(../images/bg115.gif);
+    background-repeat: no-repeat;
+    margin-left: 35px;
+    height: 2120px;
+    width: 1250px;
+}
+#header{
+	height:300px;
+}
+.daohang{
+	width:850px;
+	height:39px;
+	float:left;
+	}
+#logo{
+	margin-left: 30px;
+	margin-top: 30px;
+	float: left;
+	width:700px;
+}
+.ul1 li{
+	float:left;
+	margin:4px;
+	color:white;
+	position:relative;
+	left:25px;
+	position:relative;
+	bottom:4px;
+	list-style: none;
+}
+
+.ul1 li a{
+	color:white;
+	text-decoration: none;
+	font-weight: bolder;
+
+}
+.ul1 li a:hover{
+	color:#FF6666;
+	text-decoration: underline;
+}
+#a1{
+	color:#FF6666;
+}
+.in1{
+	width:140px;
+	height:22px;
+	background-color: #f8f5ee;
+	position:relative;
+	top:13px;
+}
+.in2{
+	width:44px;
+	height:22px;
+	background-color: #FF6666;
+	color:#fff;
+	position:relative;
+	top:15px;
+	right:6px;
+}
+#content{
+	width: 1200px;
+	height: 2650px;
+	margin-top: 250px;
+}
+#content_top{
+	width: 1200px;
+	height: 1050px;
+}
+#content_left{
+	float: left;
+	width: 500px;
+	height: 1050px;
+	margin-left: 30px;
+}
+#content_right{
+	margin-top: 20px;
+	margin-left: 120px;
+	float: left;
+	width: 500px;
+	height: 1050px;
+}
+#content_bottom{
+	width: 1200px;
+	height: 400px;
+}
+#those_years{
+	width: 450px;
+	height: 400px;
+	margin-left:100px;
+	color:#9966FF;
+}
+#those_years a{
+	color:#FF6666;
+	text-decoration: none;
+	font-weight: bolder;
+
+}
+#those_years a:hover{
+	color:white;
+	text-decoration: underline;
+}
+div.imgage img{
+	display: inline;
+	margin: 5px;
+	border: 2px solid #bebebe;
+	width: 200px;
+	height: 160px;
+	opacity: 0.4;
+}
+div.imgage a:hover img{
+	border: 2px solid #FF6666;
+	opacity: 1.0;
+}
+.imgage{
+	float: left;
+	text-align: center;
+}
+.desc{
+	color: white;
+	font-size: 18px;
+}
+#these_years{
+	width: 450px;
+	height: 400px;
+	margin-left:50px;
+	color:#9966FF;
+	float: right;
+}
+#these_years a{
+	color:#FF6666;
+	text-decoration: none;
+	font-weight: bolder;
+
+}
+#these_years a:hover{
+	color:white;
+	text-decoration: underline;
+}
+#bilibili{
+	width: 450px;
+	height: 400px;
+	margin-left:100px;
+	margin-top: 100px;
+	color:#9966FF;
+}
+#bilibili a{
+	color:#FF6666;
+	text-decoration: none;
+	font-weight: bolder;
+
+}
+#bilibili a:hover{
+	color:white;
+	text-decoration: underline;
+}
+#cos{
+	width: 450px;
+	height: 400px;
+	margin-left: 50px;
+	margin-top: 70px;
+	color:#9966FF;
+	float: right;
+}
+#cos a{
+	color:#FF6666;
+	text-decoration: none;
+	font-weight: bolder;
+
+}
+#cos a:hover{
+	color:white;
+	text-decoration: underline;
+}
+#road{
+	width: 1250px;
+	height: 1400px;
+	margin-left: 56px;
+	color:white;
+	text-align: center;
+}
+#road_top{
+    width: 1135px;
+	height: 10px;
+	color:white;
+	float: left;
+}
+#road_bottom{
+	margin-top: 30px;
+	width: 1200px;
+	height: 1200px;
+	float: left;
+}
+#road a{
+	text-align: left;
+	color:#FF6666;
+	text-decoration: none;
+	font-weight: bolder;
+
+}
+#road a:hover{
+	color:white;
+	text-decoration: underline;
+}
+p{
+	color: white;
+	text-align: left;
+}
+#shipin1{
+    width: 555px;
+    float: left;
+}
+#shipin2{
+	width: 555px;
+	margin-left: 20px;
+    float: left;
+}
+
+#shipin3{
+	margin-top: 10px;
+    width: 1100px;
+    float: left;
+    margin-left: 26px;
+}
+#footer{
+	height:200px;
+	width: 900px;
+	background-image: url(../images/foot.gif);
+}
+.foot{
+	margin-left: 102px;
+	width:800px;
+	height:50px;
+	position:relative;
+	left:230px;
+}
+.ul7 li{
+	float:left;
+	list-style-type: none;
+	position: relative;
+	left:60px;
+	right:20px;
+}
+.ul7 li a{
+	color:#FFCC66;
+	text-decoration:none;
+	font-weight: bolder;
+}
+.p1{
+	width:800px;
+	height:35px;
+	margin-left: 120px;
+	position:relative;
+	left:270px;
+	bottom: 10px;
+	color: white;
+}
+.p2{
+	width:800px;
+	height:35px;
+	margin-left: 120px;
+	position:relative;
+	left:315px;
+	bottom:10px;
+	color: white;
+}
+.img18{
+	position: relative;
+	width:500px;
+	height:2px;
+	left:300px;
+	bottom:20px;
+}
