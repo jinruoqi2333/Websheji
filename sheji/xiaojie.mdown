@@ -1,0 +1,241 @@
+#【樱花祭动漫网页】
+
+##设计目的
+
+###熟练掌握HTML在组织结构上的优势。
+
+###熟练掌握CSS在网页布局中的应用。
+
+###学习Web标准及浏览器的兼容性。
+
+##设计步骤
+
+###1.功能性需求分析
+
+该网站共有3个页面，其中每一个页面的屏幕截图及主要功能如下所列。
+
+（1）首页：
+
+屏幕截图：![](markdown/index1.png)
+![](markdown/index2.png)
+![](markdown/index3.png)
+![](markdown/index4.png)
+![](markdown/index5.png)
+主要实现功能：让用户对动漫产生兴趣
+
+首页导航栏功能：在站内搜索动漫相关资料
+
+（2）二级页面：![](markdown/list1.png)
+![](markdown/list2.png)
+![](markdown/list3.png)
+![](markdown/list4.png)
+
+（3）三级页面：![](markdown/content1.png)
+![](markdown/content2.png)
+![](markdown/content3.png)
+![](markdown/content4.png)
+
+
+###2.搜集网站素材
+
+###3.建立网站代码目录结构：![](mulu.png)
+
+###4.编写HTML代码
+（1）首页部分：
+<html>
+<head>
+	<title>家庭教师</title>
+	<meta charset="utf-8"/>
+	<link rel="stylesheet" type="text/css" href="css/content.css">
+</head>
+<body>
+</body>
+</html>
+
+    整体结构： 
+<html>
+<head>
+	<title>家庭教师</title>
+	<meta charset="utf-8"/>
+	<link rel="stylesheet" type="text/css" href="css/content.css">
+</head>
+<body>
+    <div id="mybody"></div>
+        <div id="header"></div>
+        <div id="content"></div>
+        <div id="footer"></div>
+</body>
+</html>
+    核心源代码:
+<html>
+<head>
+	<title>家庭教师</title>
+	<meta charset="utf-8"/>
+	<link rel="stylesheet" type="text/css" href="css/content.css">
+</head>
+<body>
+    <div id="mybody"></div>
+        <div id="header"></div>
+        <div id="content"></div>
+        <div id="footer"></div>
+</body>
+</html>
+
+（2）二级页面：
+<html>
+<head>
+	<title>家庭教师</title>
+	<meta charset="utf-8"/>
+	<link rel="stylesheet" type="text/css" href="css/content.css">
+</head>
+<body>
+    <div id="mybody"></div>
+        <div id="header"></div>
+        <div id="content"></div>
+        <div id="footer"></div>
+</body>
+</html>
+
+（3）三级页面：
+<html>
+<head>
+	<title>家庭教师</title>
+	<meta charset="utf-8"/>
+	<link rel="stylesheet" type="text/css" href="css/content.css">
+</head>
+<body>
+    <div id="mybody"></div>
+        <div id="header"></div>
+        <div id="content"></div>
+        <div id="footer"></div>
+</body>
+</html>
+
+###5.编写CSS布局及样式
+
+（1）CSS布局：
+核心技术： 
+Float实现布局：float:left;
+Position辅助布局：
+.img18{
+	position: relative;
+	width:500px;
+	height:2px;
+	left:300px;
+	bottom:20px;
+} 
+核心源代码：
+body{
+	background-color: black;
+    height: 2300px;
+    width: 1300px;
+}
+#mybody{
+	margin-top: 0px;
+    background-image: url(../images/bg115.gif);
+    background-repeat: no-repeat;
+    margin-left: 35px;
+    height: 2120px;
+    width: 1250px;
+}
+#header{
+	height:300px;
+}
+#content{
+	width: 1200px;
+	height: 2650px;
+	margin-top: 250px;
+}
+#footer{
+	height:200px;
+	width: 900px;
+	background-image: url(../images/foot.gif);
+}
+（2）添加CSS样式：
+通用类属性：
+body{
+	background-color: black;
+    height: 2300px;
+    width: 1300px;
+}
+背景相关类属性：
+#mybody{
+	margin-top: 0px;
+    background-image: url(../images/bg115.gif);
+    background-repeat: no-repeat;
+    margin-left: 35px;
+    height: 2120px;
+    width: 1250px;
+}
+###6.调试浏览器兼容性
+###7.问题：
+        在IE10+中的表现（屏幕截图）：![](markdown/ie10.png)
+        在火狐中的表现（屏幕截图）：![](markdown/huohu.png)
+        在Chrome中的表现（屏幕截图）：![](markdown/index2.png)
+        解决方案（核心源代码）：三个浏览器显示相同	
+
+##问题记录
+
+###问题表现：首页的首部页内跳转不明显。
+
+##设计总结
+
+需求分析阶段的经验：内容过少，内容混杂。
+
+编写HTML代码的经验：先把整体页面结构分析清楚，进行简单分部分布局，可以把首部和尾部都提前复制到其他网页中。
+
+CSS布局的经验：把一个部分的css布置到一起，方便后期查找改动。
+
+设置CSS样式经验：
+
+调整浏览器兼容性经验：可以使用绝对定位，以减少不同浏览器带来的影响。
+
+Sublime Text使用经验：及时保存，可以事先了解一些快捷键以方便后续的编程。
+
+##课程小结
+
+###HTML内容：
+<html>
+<head>
+	<title>家庭教师</title>
+	<meta charset="utf-8"/>
+	<link rel="stylesheet" type="text/css" href="css/content.css">
+</head>
+<body>
+    <div id="mybody"></div>
+        <div id="header"></div>
+        <div id="content"></div>
+        <div id="footer"></div>
+</body>
+</html>
+
+###CSS内容：
+body{
+	background-color: black;
+    height: 2300px;
+    width: 1300px;
+}
+#mybody{
+	margin-top: 0px;
+    background-image: url(../images/bg115.gif);
+    background-repeat: no-repeat;
+    margin-left: 35px;
+    height: 2120px;
+    width: 1250px;
+}
+#header{
+	height:300px;
+}
+#content{
+	width: 1200px;
+	height: 2650px;
+	margin-top: 250px;
+}
+#footer{
+	height:200px;
+	width: 900px;
+	background-image: url(../images/foot.gif);
+}
+###网上参考的内容：position设置
+
+###浏览器对CSS的兼容性上的不同表现（你所遇到的）：此次并未遇到。
